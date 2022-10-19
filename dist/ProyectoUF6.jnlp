@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?><jnlp spec="1.0" xmlns:jfx="http://javafx.com" href="ProyectoUF6.jnlp">
+    <information>
+        <title>ProyectoUF6</title>
+        <vendor>Pol</vendor>
+        <description>null</description>
+        <offline-allowed/>
+    </information>
+    <update check="always"/>
+    <resources>
+        <j2se version="11.0.15+" href="http://java.sun.com/products/autodl/j2se"/>
+        <jar href="ProyectoUF6.jar" size="2588577" download="eager"/>
+        <jar href="lib\sqlite-jdbc-3.36.0.3.jar" size="9731064" download="eager"/>
+    </resources>
+    <jfx:javafx-desc width="800" height="600" main-class="controller.Main" name="Main"/>
+</jnlp>
+
