@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextArea?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.Pane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane id="AnchorPane" prefHeight="392.0" prefWidth="386.0" xmlns="http://javafx.com/javafx/18" xmlns:fx="http://javafx.com/fxml/1" fx:controller="controller.AsignarDescripcionController">
+   <children>
+      <Pane prefHeight="74.0" prefWidth="386.0" style="-fx-background-color: indigo;">
+         <children>
+            <Button fx:id="btnSalir" layoutX="318.0" layoutY="21.0" mnemonicParsing="false" onAction="#salirAplicacion" prefHeight="27.0" prefWidth="54.0" style="-fx-border-color: white;" stylesheets="@../css/button.css" text="Salir" textFill="WHITE">
+               <font>
+                  <Font size="15.0" />
+               </font>
+            </Button>
+            <Label layoutX="74.0" layoutY="23.0" text="Descripcion : " textFill="WHITE">
+               <font>
+                  <Font size="20.0" />
+               </font>
+            </Label>
+            <ImageView fitHeight="53.0" fitWidth="54.0" layoutX="14.0" layoutY="12.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@Images/logo.png" />
+               </image>
+            </ImageView>
+         </children>
+      </Pane>
+      <TextArea fx:id="tADescripcion" layoutX="25.0" layoutY="92.0" prefHeight="224.0" prefWidth="336.0" style="-fx-border-color: indigo; -fx-background-color: transparent;" />
+      <Button fx:id="btnAsignar" layoutX="157.0" layoutY="338.0" mnemonicParsing="false" onAction="#crearLog" stylesheets="@../css/button.css" text="Asignar">
+         <font>
+            <Font size="15.0" />
+         </font>
+      </Button>
+   </children>
+</AnchorPane>

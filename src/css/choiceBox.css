@@ -1,0 +1,5 @@
+.choice-box{
+    -fx-background-color: transparent;
+    -fx-border-color: indigo;
+    -fx-border-radius: 25px;
+}
